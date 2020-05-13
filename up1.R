@@ -21,6 +21,13 @@ subdata <- subset(power_data, Date = "2007-02-01" | Date == "2007-02-02")
 
 #  Making plot
 
+
+#this is a comment for the lots
+#of videos to comment the 
+#and find the name of 
+#set the system
+#this is next level
+
 #plot1
 png("plot1.png", width = 480, height = 480)
 hist(subdata$Global_active_power, col="red", border="black", main ="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency")
